@@ -1,0 +1,47 @@
+.stApp{
+    background: linear-gradient(
+        135deg,
+        #4c1d95,
+        #6d28d9,
+        #9333ea
+    );
+    min-height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card{
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+h2,h3{
+    color: #f3e8ff;
+}
+
+.prediction-box{
+    background: white;
+    color: #6d28d9;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.stButton button{
+    background: white;
+    color: #6d28d9;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+}
